@@ -165,8 +165,11 @@ Understanding Postgres connection and task.
 
 ![Airflow Task](https://miro.medium.com/max/749/1*WjsH1W213_nOkQv8pgrAvA.png)
 
-## Setting up the Postgres Connection on Airflow UI:
-
+Setting up the Postgres Connection on Airflow UI:
 Head to the Airflow UI and click "Connections".
 
-![Airflow Connection
+
+Add your credentials and connection as below.
+
+
+Now that we have configured everything, head back to the Airflow UI home page and run the DAG. You should be able to see the DAG running successfully. It takes around 30 mins to get the initial setup ready; you can then visualize the data inside your database.
